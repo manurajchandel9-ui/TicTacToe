@@ -1,0 +1,30 @@
+.grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.turn-highlight{
+    color: white;
+}
+.reset{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 15px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    background-color: rgb(254, 156, 120);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: coral;
+}
